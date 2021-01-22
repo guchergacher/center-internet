@@ -1,0 +1,33 @@
+.blog__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  color: $basic-black;
+}
+
+.blog__list {
+  @include list-unstyled;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 38px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-column-gap: 30px;
+  }
+}
+
+.blog__item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+
+    @media (min-width: $tablet-width) {
+      margin-bottom: 0;
+    }
+  }
+}

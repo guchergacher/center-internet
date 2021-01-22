@@ -1,0 +1,44 @@
+.main__container {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-column-gap: 40px;
+  }
+}
+
+.main__title {
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: $basic-black;
+
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+.main__aside {
+  @media (max-width: $desktop-width - 1px) {
+    margin-bottom: 60px;
+  }
+}
+
+.main__sales-pitch {
+  margin-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 90px;
+  }
+}
+
+.main__gallery {
+  margin-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 80px;
+  }
+}

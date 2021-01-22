@@ -1,0 +1,11 @@
+.copyright {
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    text-align: right;
+  }
+}
+
+.copyright__text {
+  line-height: 24px;
+}

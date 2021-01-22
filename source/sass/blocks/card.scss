@@ -1,0 +1,48 @@
+.card__link {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: $basic-black;
+
+  &:hover {
+    color: $special-pink;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.card__image {
+  display: block;
+  margin-bottom: 20px;
+
+  img {
+    display: block;
+    width: 100%;
+
+    border-radius: 5px;
+
+    &:hover {
+      box-shadow: 0 -5px 0 0 $special-pink;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+}
+
+.card__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}

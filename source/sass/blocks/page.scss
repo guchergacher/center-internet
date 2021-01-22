@@ -1,0 +1,38 @@
+.page {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.page__body {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: $basic-font;
+  color: $basic-black;
+
+  background-color: $basic-white;
+}
+
+.page__header {
+  margin-bottom: 60px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 80px;
+  }
+}
+
+.page__main {
+  margin-bottom: 80px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 100px;
+  }
+}

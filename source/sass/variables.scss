@@ -1,0 +1,24 @@
+// Шрифты
+$special-font: ("Whitney");
+$basic-font: ("Arial", sans-serif);
+
+$font-stack: join($special-font, $basic-font);
+
+// Цвета
+$basic-white: #ffffff;
+$basic-black: #4b3939;
+$basic-pink: #f9ebde;
+
+$special-black: #000000;
+$special-pink: #ff5671;
+
+// Градиенты
+$gradient-pink: linear-gradient(135deg, #ffe1ba, #ffe1ba 25%, #fff0dc 25%);
+
+// Вьюпорт
+$tablet-width: 768px;
+$mobile-width: $tablet-width - 1px;
+$desktop-width: 1100px;
+
+// Ретина
+$retina-dppx: 2dppx;

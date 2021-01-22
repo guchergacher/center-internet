@@ -1,0 +1,61 @@
+.sales-pitch {
+  padding: 280px 20px 40px;
+
+  background-image: url("../img/cake.svg"), $gradient-pink;
+  background-repeat: no-repeat, repeat;
+  background-size: 200px auto, 40px 40px;
+  background-position: center 40px, left top;
+
+  border-radius: 5px;
+
+  @media (min-width: $tablet-width) {
+    padding: 30px;
+
+    background-position: right 30px center, left top;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 60px;
+
+    background-size: 280px auto, 40px 40px;
+    background-position: right -50px center, left top;
+  }
+}
+
+.sales-pitch__group {
+  @media (min-width: $tablet-width) {
+    max-width: 430px;
+  }
+}
+
+.sales-pitch__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 30px;
+
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+.sales-pitch__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 40px;
+
+    font-size: 22px;
+    line-height: 31px;
+  }
+}
